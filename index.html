@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>RGB to Hex Converter</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="range-slider">
+        <div class="row">
+            <div class="left line-r">R</div>
+                <input value="0" min="0" max="255" step="1" type="range"/>
+            <div class='right line-r'>0</div>
+        </div>
+        <div class="row">
+            <div class="left line-g">G</div>
+                <input value="0" min="0" max="255" step="1" type="range"/>
+            <div class='right line-g'>0</div>
+        </div>
+        <div class="row">
+            <div class="left line-b">B</div>
+                <input value="0" min="0" max="255" step="1" type="range"/>
+            <div class='right line-b'>0</div>
+        </div>
+    </div>
+    <div class="hex-result">
+        <p>#000000</p>
+    </div>
+    
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
